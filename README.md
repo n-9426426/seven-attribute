@@ -4,7 +4,8 @@
 文本，日期，单复选框，文件相关数据库的增删改查
 
 #### 软件架构
-软件架构说明
+service为后端
+vue-exercise为前端
 
 
 #### 安装教程
@@ -16,6 +17,7 @@
 3.  npm i vue-router
 4.  npm i emelent-plus
 5.  npm i vuex
+6.  npm run serve
 ### service
 1.  使用ssm架构
 #### 使用说明
