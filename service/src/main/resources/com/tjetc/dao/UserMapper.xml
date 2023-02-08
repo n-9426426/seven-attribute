@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.tjetc.dao.UserMapper">
+    <select id="list" resultType="User">
+        select * from user
+        <where>
+            <if test="name != null and name != ''">
+                <bind name="_name" value="'%' + name + '%'"/>
+                name like #{_name}
+            </if>
+        </where>
+    </select>
+    <delete id="del">
+        delete from user where id=#{id}
+    </delete>
+    <select id="findUserById" resultType="User">
+        select * from user where id=#{id}
+    </select>
+    <update id="update">
+        update user
+        <set>
+            name=#{user.name},
+            age=#{user.age},
+            birthday=#{user.birthday},
+            hobbies=#{user.hobbies},
+            sex=#{user.sex},
+            <trim prefixOverrides=",">
+                <if test="user.photopath!=null and user.photopath!=''">
+                    photopath=#{user.photopath}
+                </if>
+            </trim>
+        </set>
+        <where>
+            id=#{user.id}
+        </where>
+    </update>
+    <insert id="add">
+        insert into user(name, age, birthday, hobbies, sex, photopath)
+        values(#{user.name},#{user.age},#{user.birthday},#{user.hobbies},#{user.sex},#{user.photopath})
+    </insert>
+</mapper>
