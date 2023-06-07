@@ -9,7 +9,7 @@ vue-exercise为前端
 
 
 #### 安装教程
-
+数据库数据展示：
 ![image](https://github.com/n-9426426/seven-attribute/blob/master/vue-exercise/src/assets/jdbc.jpg)
 
 
