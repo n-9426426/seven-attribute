@@ -12,8 +12,6 @@ vue-exercise为前端
 数据库数据展示：
 ![image](https://github.com/n-9426426/seven-attribute/blob/master/vue-exercise/src/assets/jdbc.jpg)
 
-![image](https://github.com/ZhiliangMa/MPU6500-HMC5983-AK8975-BMP280-MS5611-10DOF-IMU-PCB/blob/main/img/IMU-V5-TOP.jpg)
-
 ### vue-exercise
 1.  npm install
 2.  npm i axios
