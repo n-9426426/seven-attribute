@@ -9,7 +9,7 @@ vue-exercise为前端
 
 
 #### 安装教程
-![输入图片说明](vue-exercise/src/assets/jdbc.jpg)
+![输入图片说明](./vue-exercise/src/assets/jdbc.jpg)
 
 ### vue-exercise
 1.  npm install
