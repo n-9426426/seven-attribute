@@ -1,16 +1,15 @@
 # text_日期_图片_单复选框相关增删改查
 
-#### 介绍
+## 介绍
 文本，日期，单复选框，文件相关数据库的增删改查
 
-#### 软件架构
+## 软件架构
+数据库数据展示：
+![image](https://github.com/n-9426426/seven-attribute/blob/master/vue-exercise/src/assets/jdbc.jpg)
 service为后端
 vue-exercise为前端
 
-
-#### 安装教程
-数据库数据展示：
-![image](https://github.com/n-9426426/seven-attribute/blob/master/vue-exercise/src/assets/jdbc.jpg)
+## 安装教程
 
 ### vue-exercise
 1.  npm install
@@ -19,10 +18,12 @@ vue-exercise为前端
 4.  npm i emelent-plus
 5.  npm i vuex
 6.  npm run serve
-### service
-1.  使用ssm架构
-#### 使用说明
 
+### service
+
+1.  使用ssm架构
+
+## 版本要求
 ### vue-exercise
 1.  axios: 1.3.2
 2.  element-plus: 2.2.29
@@ -33,7 +34,7 @@ vue-exercise为前端
 1.  tomcat: 9.0.69
 2.  spring全家桶: 5.3.25
 
-#### 特技
+## 特技
 
 1.  简单路由守卫
 2.  element组件的文件上传
