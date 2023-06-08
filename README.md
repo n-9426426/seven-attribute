@@ -4,7 +4,8 @@
 文本，日期，单复选框，文件相关数据库的增删改查
 
 ## 软件架构
-- 数据库数据展示：
+- 数据库数据展示：  
+
 ![image](https://github.com/n-9426426/seven-attribute/blob/master/vue-exercise/src/assets/jdbc.jpg)
 - service为后端
 - vue-exercise为前端
